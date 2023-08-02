@@ -4,6 +4,7 @@ import io.ktor.http.*
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
+import io.ktor.server.http.content.*
 import io.ktor.server.netty.*
 import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.server.response.*
@@ -32,6 +33,11 @@ fun main(args: Array<String>) {
 
 fun Application.module(){
     install(Routing) {
+
+        static {
+            resource("amazon.html")
+            resource("linkedin.html")
+        }
         get("/greet") {
             call.respondText("Hello, Welcome to Ktor Tutorials using embedded server!!")
         }
