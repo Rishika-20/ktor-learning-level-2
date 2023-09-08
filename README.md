@@ -44,7 +44,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## About the Author
 
-This tech hub is maintained by [Rishika Tiwari](https://www.linkedin.com/in/rishika-tiwari20), a passionate developer and tech enthusiast. Feel free to connect with them on LinkedIn to learn more about their work and stay updated on the latest developments.
+This tech hub is maintained by [Rishika Kumari](https://www.linkedin.com/in/rishika-tiwari20), a passionate developer and tech enthusiast. Feel free to connect with them on LinkedIn to learn more about their work and stay updated on the latest developments.
 
 
 
