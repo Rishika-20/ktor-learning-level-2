@@ -20,24 +20,37 @@ Before you begin, make sure you have the following requirements in place:
 
 The application includes several endpoints for various purposes:
 
-    /greet: Displays a welcome message.
-    /route: Demonstrates routing using Ktor's route and handle functions.
-    /users/{name}: Handles dynamic path parameters and custom headers.
-    /details: Accepts query parameters and responds with a message.
-    /employee: Demonstrates response handling and error management.
-    /redirect-push and /redirect-pop: Showcase URL redirection.
+   - /greet: Displays a welcome message.
+   - /route: Demonstrates routing using Ktor's route and handle functions.
+   - /users/{name}: Handles dynamic path parameters and custom headers.
+   - /details: Accepts query parameters and responds with a message.
+   - /employee: Demonstrates response handling and error management.
+   - /redirect-push and /redirect-pop: Showcase URL redirection.
 
-### Endpoints
-
-    /: Displays a welcome message.
-    /new-greet: Presents an alternate greeting message.
 
 ### Dependencies
 
-    Ktor: The core library for building the web service.
-    logback-classic: Logging framework.
-    ktor-serialization: Serialization support for Ktor.
-    ktor-server-content-negotiation: Content negotiation.
-    ktor-serialization-kotlinx-json: Kotlinx serialization support.
-    ktor-html-builder: HTML building capabilities.
-    kotlin-test-junit: Testing framework for Kotlin.
+   - Ktor: The core library for building the web service.
+   - logback-classic: Logging framework.
+   - ktor-serialization: Serialization support for Ktor.
+   - ktor-server-content-negotiation: Content negotiation.
+   - ktor-serialization-kotlinx-json: Kotlinx serialization support.
+   - ktor-html-builder: HTML building capabilities.
+   - kotlin-test-junit: Testing framework for Kotlin.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request to enhance the service.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## About the Author
+
+This tech hub is maintained by [Rishika Tiwari](https://www.linkedin.com/in/rishika-tiwari20), a passionate developer and tech enthusiast. Feel free to connect with them on LinkedIn to learn more about their work and stay updated on the latest developments.
+
+
+
+
+
